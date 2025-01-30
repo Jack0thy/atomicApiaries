@@ -4,7 +4,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "next build && touch out/.nojekyll"
+    "export": "next build && next export && touch out/.nojekyll"
   },
   "dependencies": {
     "next": "14.1.0",
