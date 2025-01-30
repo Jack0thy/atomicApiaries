@@ -24,7 +24,7 @@ function Layout({ children }: { children: React.ReactNode }) {
               ].map((item) => (
                 <Link
                   key={item}
-                  href={item === 'Home' ? '/' : `/${item.toLowerCase().replace(' ', '-')}`}
+                  href={item === 'Home' ? '/' : `/${item.toLowerCase()}`}
                   className="text-honey-100/90 hover:text-honey-200 transition-colors duration-200 text-sm uppercase tracking-wider font-medium"
                 >
                   {item}
